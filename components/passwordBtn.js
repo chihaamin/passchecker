@@ -4,7 +4,7 @@ import { useState, useMemo } from "react";
 import { EyeFilledIcon } from "./icons/EyeFilledIcon";
 import { EyeSlashFilledIcon } from "./icons/EyeSlashFilledIcon";
 import { commonPasswords } from "@/utils/passlist";
-export default function PwdLabel() {
+export default function PasswordBtn() {
   const [password, setPassword] = useState("");
   const [isVisible, setIsVisible] = useState(false);
   const toggleVisibility = () => setIsVisible(!isVisible);

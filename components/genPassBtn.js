@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Button, Snippet } from "@nextui-org/react";
 
-const GenPassBtn = () => {
+const PassGenBtn = () => {
   const [generated, setGenerated] = useState("");
   function generateStrongPassword() {
           const minLength = 12;

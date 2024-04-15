@@ -7,8 +7,8 @@ import {
   Link,
   Image,
 } from "@nextui-org/react";
-import PwdLabel from "./PwdInput";
-import GenPassBtn from "./genPassBtn";
+import PassGenBtn from "./genPassBtn";
+import PasswordBtn from "./passwordBtn";
 
 const CustomCard = () => {
   return (
@@ -32,8 +32,8 @@ const CustomCard = () => {
       </CardHeader>
       <Divider />
       <CardBody className='flex flex-col items-center'>
-        <PwdLabel />
-        <GenPassBtn />
+        <PasswordBtn />
+        <PassGenBtn />
       </CardBody>
       <Divider />
       <CardFooter>
