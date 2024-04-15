@@ -16,10 +16,10 @@ const CustomCard = () => {
       <CardHeader className='flex gap-3'>
         <Link
           isExternal
-          href='https://github.com/ahmedkharrat0/password-strength-checker'
+          href='https://github.com/ahmedkharrat0/'
         >
           <Image
-            alt='nextui logo'
+            alt='github user logo'
             height={40}
             radius='sm'
             src='https://avatars.githubusercontent.com/u/110264970?v=4'

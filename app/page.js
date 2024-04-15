@@ -1,4 +1,3 @@
-import PwdLabel from "@/components/PwdInput";
 import CustomCard from "@/components/card";
 import Header from "@/components/header";
 
